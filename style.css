@@ -1,0 +1,41 @@
+:root {
+    --pit-gold: #FFB612;
+    --pit-black: #101820;
+}
+
+body {
+    font-family: "Black Ops One", system-ui;
+    background-color: var(--pit-black);
+    color: var(--pit-gold);
+}
+
+body {
+    font-family: "Black Ops One", system-ui;
+    background-color: var(--pit-black);
+    color: white;
+    background-image: url("pit-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 0.1rem solid white;
+    padding: 0.5rem;
+}
+
+th {
+    background-color: var(--pit-black);
+    color: var(--pit-gold);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 182, 18, 0.3);
+}
